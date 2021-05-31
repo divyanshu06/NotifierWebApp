@@ -1,0 +1,18 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<element>
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>EditUserServlet</servlet-name>
+  	<display-name>EditUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.notifier.web.EditUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EditUserServlet</servlet-name>
+  	<url-pattern>/edituser</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
